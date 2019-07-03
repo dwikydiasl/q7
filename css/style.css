@@ -214,6 +214,9 @@ body{
 	border-radius: 10px;
 	padding: 10px 20px;
 	font-weight: 500;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-white:hover{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .btn-white:hover{
@@ -295,6 +298,10 @@ body{
 	.path{
 		margin-top: -100px;
 	}
+	#scrollTop{
+		bottom: 30px;
+		right: 20px;
+	}
 }
 @media (min-width: 321px) and (max-width: 576px) {
 	.menu-mobile{
@@ -333,6 +340,10 @@ body{
 	}
 	.path{
 		margin-top: -100px;
+	}
+	#scrollTop{
+		bottom: 30px;
+		right: 20px;
 	}
 }
 @media (min-width: 577px) and (max-width: 767px) {
