@@ -246,6 +246,15 @@ body{
 .download-link img{
 	max-height: 50px;
 }
+#scrollTop{
+	position: fixed;
+	bottom: 50px;
+	right: 70px;
+	display: none;
+	z-index: 99;
+	cursor: pointer;
+	color: #50E3C1;
+}
 
 /*Responsive*/
 @media (min-width: 120px) and (max-width: 320px) {
