@@ -5,7 +5,7 @@ body{
 	background-color: #F3F2FD !important;
 }
 .font-style{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
 }
 /*--Header--*/
 #header{
@@ -27,7 +27,7 @@ body{
 }
 .menu-desktop ul li a{
 	color: #3D3D82;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 18px;
 }
 .menu-desktop ul li a.active{
@@ -74,7 +74,7 @@ body{
 	color: #3D3D82;
 	display: block;
 	transition: 0.3s;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .overlay a:hover, .overlay a:focus {
@@ -101,7 +101,7 @@ body{
 }
 .title-home h2{
 	font-size: 36px;
-	font-weight: 500;
+	font-weight: 600;
 }
 .title-home p{
 	color: #7C739A;
@@ -131,7 +131,7 @@ body{
 }
 .title h2{
 	font-size: 36px;
-	font-weight: 500;
+	font-weight: 600;
 }
 .list li{
 	list-style: none;
@@ -167,7 +167,7 @@ body{
 .title-section h1{
 	color: #3D3D82;
 	font-size: 34px;
-	font-weight: 500;
+	font-weight: 600;
 }
 .icon-features img{
 	max-height: 50px;
@@ -213,7 +213,7 @@ body{
 	color: #3D3D82 !important;
 	border-radius: 10px;
 	padding: 10px 20px;
-	font-weight: 500;
+	font-weight: 600;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .btn-white:hover{
@@ -276,7 +276,7 @@ body{
 	}
 	.title-home h2{
 		font-size: 24px;
-		font-weight: 500;
+		font-weight: 600;
 	}
 	.title-home p{
 		color: #7C739A;
@@ -284,7 +284,7 @@ body{
 	}
 	.title h2{
 		font-size: 24px;
-		font-weight: 500;
+		font-weight: 600;
 	}
 	.list li{
 		font-size: 14px;
@@ -319,7 +319,7 @@ body{
 	}
 	.title-home h2{
 		font-size: 24px;
-		font-weight: 500;
+		font-weight: 600;
 	}
 	.title-home p{
 		color: #7C739A;
@@ -327,7 +327,7 @@ body{
 	}
 	.title h2{
 		font-size: 24px;
-		font-weight: 500;
+		font-weight: 600;
 	}
 	.list li{
 		font-size: 14px;
@@ -356,7 +356,7 @@ body{
 	/*--home--*/
 	.title-home h2{
 		font-size: 28px;
-		font-weight: 500;
+		font-weight: 600;
 	}
 	.title-home p{
 		color: #7C739A;
@@ -364,7 +364,7 @@ body{
 	}
 	.title h2{
 		font-size: 28px;
-		font-weight: 500;
+		font-weight: 600;
 	}
 	.list li{
 		font-size: 14px;
@@ -387,7 +387,7 @@ body{
 	/*--home--*/
 	.title-home h2{
 		font-size: 28px;
-		font-weight: 500;
+		font-weight: 600;
 	}
 	.title-home p{
 		color: #7C739A;
@@ -395,7 +395,7 @@ body{
 	}
 	.title h2{
 		font-size: 28px;
-		font-weight: 500;
+		font-weight: 600;
 	}
 	.list li{
 		font-size: 14px;
