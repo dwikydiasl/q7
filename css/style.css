@@ -3,9 +3,10 @@ html{
 }
 body{
 	background-color: #F3F2FD !important;
+	font-family: 'Nunito Sans', sans-serif;
 }
 .font-style{
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Nunito Sans', sans-serif !important;
 }
 /*--Header--*/
 #header{
