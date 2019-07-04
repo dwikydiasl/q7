@@ -113,7 +113,37 @@ body{
 }
 .ilustration img{
 	width: 80%;
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
 }
+@-webkit-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+} 
 .btn-download{
 	margin-top: 80px;
 	margin-bottom: 30px;
@@ -129,7 +159,18 @@ body{
 }
 .ilustration2 img{
 	width: 80%;
+	opacity: 0;
 }
+@keyframes fade-in {
+	from {opacity: 0; transform: scale(.7,.7)}
+	to {opacity: 1;}
+}
+.fade-in-element2{
+	animation: fade-in 1.4s;
+}
+.fade-in-element2 img{
+		width: 100%;
+	}
 .title h2{
 	font-size: 36px;
 	font-weight: 600;
@@ -313,6 +354,9 @@ body{
 	.ilustration2 img{
 		width: 100%;
 	}
+	.fade-in-element2 img{
+		width: 100%;
+	}
 	.path{
 		margin-top: -100px;
 	}
@@ -357,6 +401,9 @@ body{
 		width: 100%;
 	}
 	.ilustration2 img{
+		width: 100%;
+	}
+	.fade-in-element2 img{
 		width: 100%;
 	}
 	.path{
